@@ -1,0 +1,23 @@
+
+P5 
+.
+No late submissions allowed since this is our final time.
+
+Implement an app able to store a number of your friends, each friend has address, name. 
+Name is unique. 
+The app should allow to view your friends, add, delete, and modify. 
+Add/modify invalidating uniqueness should be rejected.
+
+The app will also allow you to set up a trip to visit some of your friends. 
+For this, you need a way to select some friends to visit, and at minimum the app will display a map of St Louis 50km
+resolution displaying the location of the friends to be visited as pins: name is title and address is subtitle. 
+The map will also display your location, which can be hard coded.
+
+
+The min requirements is 150 points.
+You will get up to 100 additional points for other features. 
+The project is 200 points (so the base gives you only 75%). 
+Examples (non-exhaustive) of extra features: center over your friends and change resolution to show them all including yourself, 
+compute the best order of visitation and display somehow possibly through pins, show the actual routes, 
+allow specifying specific order of visitation, etc.
+
