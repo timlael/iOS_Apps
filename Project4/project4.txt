@@ -1,0 +1,46 @@
+tentative till Monday 7/13
+
+Design an app for a poker game. The game will have 2 views. 
+One is the play view (default), the second is for changing game properties. 
+It is up to you which template you use but you have to pass data between the views using the seque.
+
+The property view will list all poker winning hands. 
+The hands do not change but which ones are currently available as winning change. 
+For example, two pairs is always a possible listed hand, but whether it is observed or not it changes through properties. 
+Also you cannot change which hand beats which hand.
+
+The play view will show 5 random cards for the dealer on the top, 
+and 5 random cards for the player (use png files to display cards). 
+All cards come from the same deck, which has to be shuffled to start a game. 
+The player taps on 0-5 cards to change. Cards tapped flip (you can also provide second tap to undo). 
+Then the player presses a button Play below, the flipped cards display new cards (not used yet), 
+and the result of the game is displayed in label, text field, text view, etc. 
+The result should say who wins (dealer or player) and why. 
+There is also a second button Reset which means play again from the beginning.
+
+Extra 20: research animation and use some animation on cards when dealing.
+
+Extra 20: implement more hands, provide another view displaying the rules (do not display those disabled).
+
+Suit order (in the order of lowest to highest)  spades, hearts, clubs or diamonds
+1 Diamonds
+2 Clubs
+3 Heart
+4 Spades
+
+Hands (in the order of losing to winning)
+1. No common cards/suits. The player with the stronger highest card wins.
+2. Pair. The stronger pair wins, if the same then the highest suit in the pairs wins.
+3. Three. The stronger three wins.
+4. Four. The stronger four wins.
+
+
+2 Views - start as one then build up
+Play view felt background and two separate hand display images
+	Dealer on top/Player on bottom
+Shuffle deck before play
+Tap to discard and flip over/tap again to change mind
+Replace tapped cards with button press
+Display results Win/Lose and why
+Second button to reset
+

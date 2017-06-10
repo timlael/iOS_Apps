@@ -1,0 +1,47 @@
+Use an address book similar in your notes exercises. But assume the email is unique key. 
+Using this fact,for full credit re-implement the address book as dictionary (10). 
+Implement the methods as in your notes or not (most can be found in chapter 15). 
+Most will be useful.
+
+Then add a single view, as seen in the attachment (the Next button under the text fields is missing). 
+To start with, if there are entries in the address book, the first entry is displayed in the text fields, 
+and when Next is pressed, the next entry gets displayed (after the last, the first starts again). 
+The same happens every time Display is pressed, starting from the first entry always.
+
+The user can type into any of the text fields, and doing so immediately erases the previous content of all text field. 
+This info is disregarded unless appropriate button is pressed.
+
+When Add is pressed, the entered data is added into the address book. 
+Add requires the key (no check for format) but no other data is required. 
+If Add is pressed when new data uses an existing key, the label will display message "Not added, already in contacts".
+
+When Find is pressed, behavior is similar to Add except that all data matching the entered data is displayed in the label, 
+or "Not found in contacts". For normal credit, require email for this search but if other data is entered it has to match too.
+
+When Delete is pressed, the entry with matching key is deleted and the label says "Deleted" or "Entry not found in contacts" 
+otherwise. Behavior is similar to Find - email is required but if more data is entered it has to match too.
+
+Finally, for extra 10, disable and enable the buttons when appropriate. 
+For example, Add should be enabled only when some data is typed in the text fields. 
+The method self.buttonOutlet.enable = YES or NO can be used for this purpose.
+
+
+Address Card:
+Name
+Age
+email
+
+
+Address Book Dictionary:
+Address Card
+key
+
+
+Display first onLoad (if count>0)
+Next function (atIndex ++) Display does the same
+Add adds card using current text (requires key), (if duplicate, display, “Not added, already in contacts”
+Find returns all matching data (requires key) or displays, “Not found in contacts”, try to match all fields
+Delete removes card with matching email, displays, “Deleted” or “Entry not found in contacts”, try to match all fields
+Disable and enable appropriate buttons for +10
+
+

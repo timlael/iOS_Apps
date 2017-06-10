@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DC950EF1B4380AB005EB7AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC950EE1B4380AB005EB7AB /* main.m */; };
+		6DC950F21B4380AB005EB7AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC950F11B4380AB005EB7AB /* AppDelegate.m */; };
+		6DC950F51B4380AB005EB7AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC950F41B4380AB005EB7AB /* ViewController.m */; };
+		6DC950F81B4380AB005EB7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC950F61B4380AB005EB7AB /* Main.storyboard */; };
+		6DC950FA1B4380AB005EB7AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC950F91B4380AB005EB7AB /* Images.xcassets */; };
+		6DC950FD1B4380AB005EB7AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC950FB1B4380AB005EB7AB /* LaunchScreen.xib */; };
+		6DC951091B4380AB005EB7AB /* Lael2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC951081B4380AB005EB7AB /* Lael2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DC951031B4380AB005EB7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DC950E11B4380AA005EB7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DC950E81B4380AA005EB7AB;
+			remoteInfo = Lael2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DC950E91B4380AB005EB7AB /* Lael2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lael2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC950ED1B4380AB005EB7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC950EE1B4380AB005EB7AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DC950F01B4380AB005EB7AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DC950F11B4380AB005EB7AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DC950F31B4380AB005EB7AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DC950F41B4380AB005EB7AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DC950F71B4380AB005EB7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DC950F91B4380AB005EB7AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DC950FC1B4380AB005EB7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DC951021B4380AB005EB7AB /* Lael2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lael2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC951071B4380AB005EB7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC951081B4380AB005EB7AB /* Lael2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lael2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC950E61B4380AA005EB7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC950FF1B4380AB005EB7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DC950E01B4380AA005EB7AB = {
+			isa = PBXGroup;
+			children = (
+				6DC950EB1B4380AB005EB7AB /* Lael2 */,
+				6DC951051B4380AB005EB7AB /* Lael2Tests */,
+				6DC950EA1B4380AB005EB7AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC950EA1B4380AB005EB7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC950E91B4380AB005EB7AB /* Lael2.app */,
+				6DC951021B4380AB005EB7AB /* Lael2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC950EB1B4380AB005EB7AB /* Lael2 */ = {
+			isa = PBXGroup;
+			children = (
+				6DC950F01B4380AB005EB7AB /* AppDelegate.h */,
+				6DC950F11B4380AB005EB7AB /* AppDelegate.m */,
+				6DC950F31B4380AB005EB7AB /* ViewController.h */,
+				6DC950F41B4380AB005EB7AB /* ViewController.m */,
+				6DC950F61B4380AB005EB7AB /* Main.storyboard */,
+				6DC950F91B4380AB005EB7AB /* Images.xcassets */,
+				6DC950FB1B4380AB005EB7AB /* LaunchScreen.xib */,
+				6DC950EC1B4380AB005EB7AB /* Supporting Files */,
+			);
+			path = Lael2;
+			sourceTree = "<group>";
+		};
+		6DC950EC1B4380AB005EB7AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC950ED1B4380AB005EB7AB /* Info.plist */,
+				6DC950EE1B4380AB005EB7AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DC951051B4380AB005EB7AB /* Lael2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6DC951081B4380AB005EB7AB /* Lael2Tests.m */,
+				6DC951061B4380AB005EB7AB /* Supporting Files */,
+			);
+			path = Lael2Tests;
+			sourceTree = "<group>";
+		};
+		6DC951061B4380AB005EB7AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC951071B4380AB005EB7AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC950E81B4380AA005EB7AB /* Lael2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC9510C1B4380AB005EB7AB /* Build configuration list for PBXNativeTarget "Lael2" */;
+			buildPhases = (
+				6DC950E51B4380AA005EB7AB /* Sources */,
+				6DC950E61B4380AA005EB7AB /* Frameworks */,
+				6DC950E71B4380AA005EB7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lael2;
+			productName = Lael2;
+			productReference = 6DC950E91B4380AB005EB7AB /* Lael2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DC951011B4380AB005EB7AB /* Lael2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC9510F1B4380AB005EB7AB /* Build configuration list for PBXNativeTarget "Lael2Tests" */;
+			buildPhases = (
+				6DC950FE1B4380AB005EB7AB /* Sources */,
+				6DC950FF1B4380AB005EB7AB /* Frameworks */,
+				6DC951001B4380AB005EB7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DC951041B4380AB005EB7AB /* PBXTargetDependency */,
+			);
+			name = Lael2Tests;
+			productName = Lael2Tests;
+			productReference = 6DC951021B4380AB005EB7AB /* Lael2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC950E11B4380AA005EB7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Tim Lael";
+				TargetAttributes = {
+					6DC950E81B4380AA005EB7AB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6DC951011B4380AB005EB7AB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6DC950E81B4380AA005EB7AB;
+					};
+				};
+			};
+			buildConfigurationList = 6DC950E41B4380AA005EB7AB /* Build configuration list for PBXProject "Lael2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DC950E01B4380AA005EB7AB;
+			productRefGroup = 6DC950EA1B4380AB005EB7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC950E81B4380AA005EB7AB /* Lael2 */,
+				6DC951011B4380AB005EB7AB /* Lael2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC950E71B4380AA005EB7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC950F81B4380AB005EB7AB /* Main.storyboard in Resources */,
+				6DC950FD1B4380AB005EB7AB /* LaunchScreen.xib in Resources */,
+				6DC950FA1B4380AB005EB7AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC951001B4380AB005EB7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC950E51B4380AA005EB7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC950F51B4380AB005EB7AB /* ViewController.m in Sources */,
+				6DC950F21B4380AB005EB7AB /* AppDelegate.m in Sources */,
+				6DC950EF1B4380AB005EB7AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC950FE1B4380AB005EB7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC951091B4380AB005EB7AB /* Lael2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DC951041B4380AB005EB7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DC950E81B4380AA005EB7AB /* Lael2 */;
+			targetProxy = 6DC951031B4380AB005EB7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DC950F61B4380AB005EB7AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC950F71B4380AB005EB7AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DC950FB1B4380AB005EB7AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC950FC1B4380AB005EB7AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DC9510A1B4380AB005EB7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DC9510B1B4380AB005EB7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DC9510D1B4380AB005EB7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lael2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DC9510E1B4380AB005EB7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lael2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DC951101B4380AB005EB7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Lael2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lael2.app/Lael2";
+			};
+			name = Debug;
+		};
+		6DC951111B4380AB005EB7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Lael2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lael2.app/Lael2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC950E41B4380AA005EB7AB /* Build configuration list for PBXProject "Lael2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC9510A1B4380AB005EB7AB /* Debug */,
+				6DC9510B1B4380AB005EB7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC9510C1B4380AB005EB7AB /* Build configuration list for PBXNativeTarget "Lael2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC9510D1B4380AB005EB7AB /* Debug */,
+				6DC9510E1B4380AB005EB7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DC9510F1B4380AB005EB7AB /* Build configuration list for PBXNativeTarget "Lael2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC951101B4380AB005EB7AB /* Debug */,
+				6DC951111B4380AB005EB7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DC950E11B4380AA005EB7AB /* Project object */;
+}

@@ -1,0 +1,15 @@
+Build an app similar to Exc 6.3: 
+the app will have 10 predefined fortune sayings and will display one at a time in the label on the top of the view. 
+There will be 2 buttons at the bottom: the left named Random  and the right named Next. 
+The app will start wil teh first saying displayed. 
+When Random is pressed, a random saying will get displayed. 
+When Next is pressed, the next saying (after the current) will get displayed.
+In addition, the app will have 3 buttons named Green, Red, and Blue (located on the bottom, just below the Random/Next buttons), 
+which when pressed will change the color of the displayed text (the font color). 
+Finally, there will be a text field in the middle, in which the user can type a custom saying and it would replace the most recently (currently) displayed saying both in the displayed label but also in the sayings store (that is, next time teh saying is displayed, it will be the new one not the old one).
+
+
+Label on top
+Text Field in Middle
+Tow buttons on bottom. Left Random, right Next
+Three buttons below that. Green, Red, Blue.
